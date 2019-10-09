@@ -40,7 +40,7 @@ public:
 	void mode(PinMode mode);
 	int is_connected();
 	operator int();
-private:
+protected:
 	PLATFORM_PIN_TYPE pin;
 };
 
