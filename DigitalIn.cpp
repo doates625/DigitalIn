@@ -11,7 +11,7 @@
  * @param pin Platform-specific pin ID
  * @param pull Pin mode (PullUp, PullNone)
  */
-DigitalIn::DigitalIn(Platform::pintype_t pin, PinMode pull)
+DigitalIn::DigitalIn(Platform::pin_t pin, PinMode pull)
 {
 	this->pin = pin;
 	mode(pull);
