@@ -35,13 +35,13 @@ PinMode;
 class DigitalIn
 {
 public:
-	DigitalIn(PLATFORM_PIN_TYPE pin, PinMode mode = PullNone);
+	DigitalIn(Platform::pintype_t pin, PinMode mode = PullNone);
 	int read();
 	void mode(PinMode mode);
 	int is_connected();
 	operator int();
 protected:
-	PLATFORM_PIN_TYPE pin;
+	Platform::pintype_t pin;
 };
 
 #endif
