@@ -1,5 +1,5 @@
 /**
- * @brief DigitalIn.cpp
+ * @file DigitalIn.cpp
  * @author Dan Oates (WPI Class of 2020)
  */
 #include "DigitalIn.h"
